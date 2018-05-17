@@ -1,5 +1,57 @@
 <resources>
     <string name="app_name">Inventory</string>
-    <string name="insert_button">Insert</string>]
-    <string name="product_count">Number of products in inventory: %d</string>
+
+    <!-- Layout resources -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Products</string>
+    <string name="sample_name">Test Product</string>
+    <string name="sample_product_image_description">Sample Product Image</string>
+    <string name="sample_supplier_name">Best Supplier</string>
+    <string name="sample_supplier_phone">5432198761</string>
+    <string name="empty_product_image_description">Empty Product Image</string>
+    <string name="empty_view_title_text">Oh no!</string>
+    <string name="empty_view_subtitle_text">It seems like you have no products in your inventory.\nStart by adding a product.</string>
+
+    <!-- DetailActivity Resources -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="hint_product_name">Name</string>
+    <string name="product_overview">Product Info</string>
+    <string name="supplier_overview">Supplier Info</string>
+    <string name="product_qty">Quantity:</string>
+    <string name="hint_product_price">Price</string>
+    <string name="hint_supplier_name">Name</string>
+    <string name="hint_supplier_phone">Phone</string>
+    <string name="sale_button">Sale</string>
+    <string name="minus_qty">-</string>
+    <string name="default_product_qty">1</string>
+    <string name="plus_qty">+</string>
+    <string name="invalid_phone">Invalid phone number</string>
+    <string name="empty_field_toast">Fill the product fields</string>
+
+    <!-- operation feedback toasts -->
+    <string name="insert_error">Error with inserting product</string>
+    <string name="insert_success">Product successfully inserted</string>
+    <string name="sale_success">Quantity successfully decreased</string>
+    <string name="sale_error">Error with decreasing quantity</string>
+    <string name="min_qty_toast">Minimum quantity is 0</string>
+    <string name="update_error">Error with updating product</string>
+    <string name="update_success">Product successfully updated</string>
+    <string name="delete_error">Error with deleting product</string>
+    <string name="delete_success">Product successfully deleted</string>
+    <string name="delete_all_products_error">Error with deleting products</string>
+    <string name="delete_all_products_success">All products deleted</string>
+
+    <!-- Various Dialog messages -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="delete_all_products_dialog_msg">Are your sure you want to delete all products?</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog buttons text -->
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="supplier_icon">Supplier</string>
+
 </resources>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="MainLayoutPadding">32dp</dimen>
-    <dimen name="ViewPadding">8dp</dimen>
-    <dimen name="ViewButtonMargin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="item_height">140dp</dimen>
+    <dimen name="item_padding">16dp</dimen>
+    <dimen name="image_info_margin">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="qty_margin">8dp</dimen>
+    <dimen name="qty">16sp</dimen>
+    <dimen name="qty_button">35dp</dimen>
+    <dimen name="sale_button">50dp</dimen>
+    <dimen name="button_icon">4dp</dimen>
 </resources>

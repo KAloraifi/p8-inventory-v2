@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/sample_product_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/image_info_margin"
+        android:src="@drawable/product"
+        android:contentDescription="@string/sample_product_image_description" />
+
+    <TextView
+        android:id="@+id/product_name"
+        style="@style/ProductInformation"
+        android:layout_toRightOf="@id/sample_product_image"
+        android:fontFamily="casual"
+        tools:text="ProductName" />
+
+    <TextView
+        android:id="@+id/product_price"
+        style="@style/ProductInformation"
+        android:layout_below="@id/product_name"
+        android:layout_toRightOf="@id/sample_product_image"
+        android:fontFamily="monospace"
+        android:gravity="top"
+        tools:text="SAR150" />
+
+    <LinearLayout
+        android:id="@+id/qty_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_price"
+        android:layout_toRightOf="@id/sample_product_image"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/qty_margin">
+
+        <TextView
+            style="@style/ProductInformation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_qty" />
+
+        <TextView
+            android:id="@+id/main_product_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/qty_margin"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/qty"
+            tools:text="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sale_button"
+        style="@style/SaleButton"
+        android:layout_below="@id/qty_container"
+        android:layout_toRightOf="@id/sample_product_image"
+        android:focusable="false"
+        android:text="@string/sale_button" />
+
+</RelativeLayout>
